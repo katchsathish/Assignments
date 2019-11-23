@@ -24,10 +24,7 @@ namespace Assignment1
                     Console.WriteLine("Buzz");
                 else
                     Console.WriteLine(i);
-
             }
-
-
         }
     }
 }
