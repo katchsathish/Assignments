@@ -1,4 +1,5 @@
 ﻿using System;
+using Assignment2;
 
 namespace Assignment2
 {
@@ -11,11 +12,11 @@ namespace Assignment2
         static void Main(string[] args)
         {
             int x = 1, y = 2;
-            Console.WriteLine("Before Swapping {X}= " + x +" {Y}= "+y);
-            x = x + y;
-            y = x - y;
-            x = x - y;
-            Console.WriteLine("After Swapping {X}= " + x + " {Y}= " + y);
+            Swap sw = new Swap(x,y);
+            Console.WriteLine("Before Swapping {X}= " + sw.x + " {Y}= " + sw.y);
+            sw.swapNo();
+            Console.WriteLine("Before Swapping {X}= " + sw.x + " {Y}= " + sw.y);
+
         }
             
        
